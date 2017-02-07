@@ -1,0 +1,1585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F3D76931E196E0500BDC811 /* BYAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76921E196E0500BDC811 /* BYAlamofire.swift */; };
+		8F3D76F91E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */; };
+		8F3D76FB1E1CF07300BDC811 /* BYHttpModeParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */; };
+		8F3D76FD1E1F613F00BDC811 /* BYHttpLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76FC1E1F613F00BDC811 /* BYHttpLoginModel.swift */; };
+		8F3D77001E1F6E4000BDC811 /* BYLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76FF1E1F6E4000BDC811 /* BYLoginModel.swift */; };
+		8F3D77021E1F6E6100BDC811 /* BYModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D77011E1F6E6100BDC811 /* BYModel.swift */; };
+		8F3D77041E1F7A5E00BDC811 /* BYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D77031E1F7A5E00BDC811 /* BYViewController.swift */; };
+		8F3D77061E1F975B00BDC811 /* BYDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D77051E1F975A00BDC811 /* BYDataCenter.swift */; };
+		8F5C23581E2680CB00D09430 /* MQTTFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5C23521E2680BB00D09430 /* MQTTFramework.framework */; };
+		8F5C23591E2680CB00D09430 /* MQTTFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5C23521E2680BB00D09430 /* MQTTFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F6D656A1E207C0C00254357 /* BYHttpMobileInitialMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D65691E207C0C00254357 /* BYHttpMobileInitialMode.swift */; };
+		8F6D65731E207F6B00254357 /* BYHouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D65721E207F6B00254357 /* BYHouseModel.swift */; };
+		8F6D65751E207F9800254357 /* BYGatewayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D65741E207F9800254357 /* BYGatewayModel.swift */; };
+		8F6D65771E207FAB00254357 /* BYInDoorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D65761E207FAB00254357 /* BYInDoorModel.swift */; };
+		8F6D657D1E20801000254357 /* BYRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D657C1E20801000254357 /* BYRoomModel.swift */; };
+		8F6D657F1E20802A00254357 /* BYDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D657E1E20802A00254357 /* BYDeviceModel.swift */; };
+		8F6D65811E20804A00254357 /* BYVirtualDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D65801E20804A00254357 /* BYVirtualDeviceModel.swift */; };
+		8F6D65841E216DB700254357 /* BYTriggerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D65831E216DB700254357 /* BYTriggerModel.swift */; };
+		8F96CF351E217476008FFE36 /* BYActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F96CF341E217476008FFE36 /* BYActionModel.swift */; };
+		8F96CF391E217F0B008FFE36 /* BYSceneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F96CF381E217F0B008FFE36 /* BYSceneModel.swift */; };
+		8F96CF421E217F40008FFE36 /* BYDefenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F96CF411E217F40008FFE36 /* BYDefenceModel.swift */; };
+		8F98B2091E17D2C4000F9300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B2081E17D2C4000F9300 /* AppDelegate.swift */; };
+		8F98B20B1E17D2C4000F9300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B20A1E17D2C4000F9300 /* ViewController.swift */; };
+		8F98B20E1E17D2C4000F9300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B20C1E17D2C4000F9300 /* Main.storyboard */; };
+		8F98B2101E17D2C4000F9300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B20F1E17D2C4000F9300 /* Assets.xcassets */; };
+		8F98B2131E17D2C4000F9300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2111E17D2C4000F9300 /* LaunchScreen.storyboard */; };
+		8F98B21E1E17D2C5000F9300 /* ehomecloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B21D1E17D2C5000F9300 /* ehomecloudTests.swift */; };
+		8F98B2291E17D2C5000F9300 /* ehomecloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B2281E17D2C5000F9300 /* ehomecloudUITests.swift */; };
+		8F98B23C1E17D500000F9300 /* BYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B23A1E17D500000F9300 /* BYLoginViewController.swift */; };
+		8F98B23D1E17D500000F9300 /* BYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B23B1E17D500000F9300 /* BYLoginViewController.xib */; };
+		8F98B3BF1E17D5AD000F9300 /* 二维码界面.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2441E17D5AC000F9300 /* 二维码界面.png */; };
+		8F98B3C01E17D5AD000F9300 /* router.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2461E17D5AC000F9300 /* router.xcassets */; };
+		8F98B3C11E17D5AD000F9300 /* deviceManageIntelligentScene.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2481E17D5AC000F9300 /* deviceManageIntelligentScene.xcassets */; };
+		8F98B3C21E17D5AD000F9300 /* intelligentSceneRemoteControl.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2491E17D5AC000F9300 /* intelligentSceneRemoteControl.xcassets */; };
+		8F98B3C31E17D5AD000F9300 /* roomManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B24B1E17D5AC000F9300 /* roomManager.xcassets */; };
+		8F98B3C41E17D5AD000F9300 /* deviceManageSceneDeviceInfraredBig.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B24E1E17D5AC000F9300 /* deviceManageSceneDeviceInfraredBig.xcassets */; };
+		8F98B3C51E17D5AD000F9300 /* defence.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2501E17D5AC000F9300 /* defence.xcassets */; };
+		8F98B3C61E17D5AD000F9300 /* deviceManageSecurityLinkage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2521E17D5AC000F9300 /* deviceManageSecurityLinkage.xcassets */; };
+		8F98B3C71E17D5AD000F9300 /* editDevice.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2551E17D5AC000F9300 /* editDevice.xcassets */; };
+		8F98B3C81E17D5AD000F9300 /* deviceManageSmartDeviceControlTotal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2571E17D5AC000F9300 /* deviceManageSmartDeviceControlTotal.xcassets */; };
+		8F98B3C91E17D5AD000F9300 /* deviceManageSmartDeviceEnergyManage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2591E17D5AC000F9300 /* deviceManageSmartDeviceEnergyManage.xcassets */; };
+		8F98B3CA1E17D5AD000F9300 /* deviceManageSmartDeviceInfraredRemoteControlTotal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B25B1E17D5AC000F9300 /* deviceManageSmartDeviceInfraredRemoteControlTotal.xcassets */; };
+		8F98B3CB1E17D5AD000F9300 /* curtainConfig.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B25D1E17D5AC000F9300 /* curtainConfig.xcassets */; };
+		8F98B3CC1E17D5AD000F9300 /* deviceManageSmartDevicePanelTotal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B25E1E17D5AC000F9300 /* deviceManageSmartDevicePanelTotal.xcassets */; };
+		8F98B3CD1E17D5AD000F9300 /* lcdButtonIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B25F1E17D5AC000F9300 /* lcdButtonIcon.xcassets */; };
+		8F98B3CE1E17D5AD000F9300 /* lcdConfig.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2601E17D5AC000F9300 /* lcdConfig.xcassets */; };
+		8F98B3CF1E17D5AD000F9300 /* newLcdConfig.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2611E17D5AC000F9300 /* newLcdConfig.xcassets */; };
+		8F98B3D01E17D5AD000F9300 /* stemNode.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2621E17D5AC000F9300 /* stemNode.xcassets */; };
+		8F98B3D11E17D5AD000F9300 /* deviceManageSmartDeviceRouter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2641E17D5AC000F9300 /* deviceManageSmartDeviceRouter.xcassets */; };
+		8F98B3D21E17D5AD000F9300 /* alarmIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2661E17D5AC000F9300 /* alarmIcon.xcassets */; };
+		8F98B3D31E17D5AD000F9300 /* bodyInfrared.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2671E17D5AC000F9300 /* bodyInfrared.xcassets */; };
+		8F98B3D41E17D5AD000F9300 /* deviceManageSmartDeviceSecurityTotal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2681E17D5AC000F9300 /* deviceManageSmartDeviceSecurityTotal.xcassets */; };
+		8F98B3D51E17D5AD000F9300 /* smartLock.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2691E17D5AC000F9300 /* smartLock.xcassets */; };
+		8F98B3D61E17D5AD000F9300 /* smokeAlarm.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B26A1E17D5AC000F9300 /* smokeAlarm.xcassets */; };
+		8F98B3D71E17D5AD000F9300 /* deviceManageTotal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B26C1E17D5AC000F9300 /* deviceManageTotal.xcassets */; };
+		8F98B3D81E17D5AD000F9300 /* curtain.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B26F1E17D5AC000F9300 /* curtain.xcassets */; };
+		8F98B3D91E17D5AD000F9300 /* homePageControlCamera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2701E17D5AC000F9300 /* homePageControlCamera.xcassets */; };
+		8F98B3DA1E17D5AD000F9300 /* light.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2711E17D5AC000F9300 /* light.xcassets */; };
+		8F98B3DB1E17D5AD000F9300 /* singleFireTouchSwitch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2721E17D5AC000F9300 /* singleFireTouchSwitch.xcassets */; };
+		8F98B3DC1E17D5AD000F9300 /* smartPowerSockets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2731E17D5AC000F9300 /* smartPowerSockets.xcassets */; };
+		8F98B3DD1E17D5AD000F9300 /* useElectricityMonitor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2741E17D5AC000F9300 /* useElectricityMonitor.xcassets */; };
+		8F98B3DE1E17D5AD000F9300 /* VRVAircondition.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2751E17D5AC000F9300 /* VRVAircondition.xcassets */; };
+		8F98B3DF1E17D5AD000F9300 /* fanCoilActuator.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2771E17D5AC000F9300 /* fanCoilActuator.xcassets */; };
+		8F98B3E01E17D5AD000F9300 /* homePageInfraredRemoteControlAirCondition.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2781E17D5AC000F9300 /* homePageInfraredRemoteControlAirCondition.xcassets */; };
+		8F98B3E11E17D5AD000F9300 /* homePageInfraredRemoteControlCommonInfrared.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2791E17D5AC000F9300 /* homePageInfraredRemoteControlCommonInfrared.xcassets */; };
+		8F98B3E21E17D5AD000F9300 /* homePageInfraredRemoteControlTotal.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B27A1E17D5AC000F9300 /* homePageInfraredRemoteControlTotal.xcassets */; };
+		8F98B3E31E17D5AD000F9300 /* thermostat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B27B1E17D5AC000F9300 /* thermostat.xcassets */; };
+		8F98B3E41E17D5AD000F9300 /* tv.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B27C1E17D5AC000F9300 /* tv.xcassets */; };
+		8F98B3E51E17D5AD000F9300 /* homePageMonitoring.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B27E1E17D5AC000F9300 /* homePageMonitoring.xcassets */; };
+		8F98B3E61E17D5AD000F9300 /* homePageNavigation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2801E17D5AC000F9300 /* homePageNavigation.xcassets */; };
+		8F98B3E71E17D5AD000F9300 /* homepageSecurityLinkage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2811E17D5AC000F9300 /* homepageSecurityLinkage.xcassets */; };
+		8F98B3E81E17D5AD000F9300 /* homePageScene.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2831E17D5AC000F9300 /* homePageScene.xcassets */; };
+		8F98B3E91E17D5AD000F9300 /* homepageSecurityLinkage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2851E17D5AC000F9300 /* homepageSecurityLinkage.xcassets */; };
+		8F98B3EA1E17D5AD000F9300 /* APPguide-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2881E17D5AC000F9300 /* APPguide-02.png */; };
+		8F98B3EB1E17D5AD000F9300 /* APPguide-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2891E17D5AC000F9300 /* APPguide-03.png */; };
+		8F98B3EC1E17D5AD000F9300 /* APPguide-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B28A1E17D5AC000F9300 /* APPguide-04.png */; };
+		8F98B3ED1E17D5AD000F9300 /* common_icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B28C1E17D5AC000F9300 /* common_icon.xcassets */; };
+		8F98B3EE1E17D5AD000F9300 /* login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B28E1E17D5AC000F9300 /* login.xcassets */; };
+		8F98B3EF1E17D5AD000F9300 /* peopleCenter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2901E17D5AC000F9300 /* peopleCenter.xcassets */; };
+		8F98B3F01E17D5AD000F9300 /* peopleCenterAboutAPP.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2911E17D5AC000F9300 /* peopleCenterAboutAPP.xcassets */; };
+		8F98B3F11E17D5AD000F9300 /* tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2931E17D5AC000F9300 /* tabbar.xcassets */; };
+		8F98B3F21E17D5AD000F9300 /* offlineDeviceIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2941E17D5AC000F9300 /* offlineDeviceIcon.xcassets */; };
+		8F98B4061E17D5AD000F9300 /* smallDeviceIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2AB1E17D5AC000F9300 /* smallDeviceIcon.xcassets */; };
+		8F98B4071E17D5AD000F9300 /* speech.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F98B2AC1E17D5AC000F9300 /* speech.xcassets */; };
+		8FC380C71E2404D200A7352E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC380C41E2404C300A7352E /* SnapKit.framework */; };
+		8FC380C81E2404D200A7352E /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC380C41E2404C300A7352E /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FC380D61E261BA000A7352E /* MQTTSwift.app in Resources */ = {isa = PBXBuildFile; fileRef = 8FC380D51E261B8800A7352E /* MQTTSwift.app */; };
+		8FC380D91E261BA600A7352E /* MQTTSwift.app in Resources */ = {isa = PBXBuildFile; fileRef = 8FC380D51E261B8800A7352E /* MQTTSwift.app */; };
+		8FD48C5D1E23F82100978EE1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD48C501E23F78B00978EE1 /* Alamofire.framework */; };
+		8FD48C5E1E23F82100978EE1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD48C501E23F78B00978EE1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FD50C701E26827100662E96 /* BYMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD50C6F1E26827100662E96 /* BYMQTT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F5C234B1E2680BB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8461913A1883E56800101409;
+			remoteInfo = MQTTClientTests;
+		};
+		8F5C234D1E2680BB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8425D7011BBE8D3D005AD733;
+			remoteInfo = MQTTClientTVTests;
+		};
+		8F5C234F1E2680BB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 840716321BBEF13A00FBB3CB;
+			remoteInfo = MQTTClientOSXTests;
+		};
+		8F5C23511E2680BB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DE9EF5C51C0628B1009EF667;
+			remoteInfo = MQTTFramework;
+		};
+		8F5C23531E2680BB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8404875E1C51212600569C79;
+			remoteInfo = MQTTFrameworkTests;
+		};
+		8F5C23551E2680BB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84A7BD8D1D576C730070ADA2;
+			remoteInfo = MQTTClient;
+		};
+		8F5C235A1E2680CB00D09430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9EF5C41C0628B1009EF667;
+			remoteInfo = MQTTFramework;
+		};
+		8F98B21A1E17D2C5000F9300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F98B1FD1E17D2C4000F9300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F98B2041E17D2C4000F9300;
+			remoteInfo = ehomecloud;
+		};
+		8F98B2251E17D2C5000F9300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F98B1FD1E17D2C4000F9300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F98B2041E17D2C4000F9300;
+			remoteInfo = ehomecloud;
+		};
+		8FC380C31E2404C300A7352E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		8FC380C51E2404C300A7352E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = "SnapKit Tests";
+		};
+		8FC380C91E2404D200A7352E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		8FC380D41E261B8800A7352E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC380D01E261B8800A7352E /* MQTTSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84B65C671CF39DA50089B477;
+			remoteInfo = MQTTSwift;
+		};
+		8FC380D71E261BA000A7352E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC380D01E261B8800A7352E /* MQTTSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B65C661CF39DA50089B477;
+			remoteInfo = MQTTSwift;
+		};
+		8FC380DA1E261BA600A7352E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC380D01E261B8800A7352E /* MQTTSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B65C661CF39DA50089B477;
+			remoteInfo = MQTTSwift;
+		};
+		8FD48C4F1E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		8FD48C511E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		8FD48C531E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		8FD48C551E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		8FD48C571E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		8FD48C591E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		8FD48C5B1E23F78B00978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		8FD48C5F1E23F82100978EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F3D76CA1E196F3800BDC811 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8FD48C5E1E23F82100978EE1 /* Alamofire.framework in Embed Frameworks */,
+				8F5C23591E2680CB00D09430 /* MQTTFramework.framework in Embed Frameworks */,
+				8FC380C81E2404D200A7352E /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC380BB1E23FF3200A7352E /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F3D76921E196E0500BDC811 /* BYAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYAlamofire.swift; sourceTree = "<group>"; };
+		8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = api.ehomeclouds.com.cn.cer; sourceTree = "<group>"; };
+		8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHttpModeParameter.swift; sourceTree = "<group>"; };
+		8F3D76FC1E1F613F00BDC811 /* BYHttpLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHttpLoginModel.swift; sourceTree = "<group>"; };
+		8F3D76FF1E1F6E4000BDC811 /* BYLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYLoginModel.swift; sourceTree = "<group>"; };
+		8F3D77011E1F6E6100BDC811 /* BYModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYModel.swift; sourceTree = "<group>"; };
+		8F3D77031E1F7A5E00BDC811 /* BYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYViewController.swift; sourceTree = "<group>"; };
+		8F3D77051E1F975A00BDC811 /* BYDataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYDataCenter.swift; sourceTree = "<group>"; };
+		8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MQTTClient.xcodeproj; path = "Libs/MQTT-Client-Framework-0.8.0/MQTTClient/MQTTClient.xcodeproj"; sourceTree = "<group>"; };
+		8F6D65691E207C0C00254357 /* BYHttpMobileInitialMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHttpMobileInitialMode.swift; sourceTree = "<group>"; };
+		8F6D65721E207F6B00254357 /* BYHouseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHouseModel.swift; sourceTree = "<group>"; };
+		8F6D65741E207F9800254357 /* BYGatewayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYGatewayModel.swift; sourceTree = "<group>"; };
+		8F6D65761E207FAB00254357 /* BYInDoorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYInDoorModel.swift; sourceTree = "<group>"; };
+		8F6D657C1E20801000254357 /* BYRoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYRoomModel.swift; sourceTree = "<group>"; };
+		8F6D657E1E20802A00254357 /* BYDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYDeviceModel.swift; sourceTree = "<group>"; };
+		8F6D65801E20804A00254357 /* BYVirtualDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYVirtualDeviceModel.swift; sourceTree = "<group>"; };
+		8F6D65831E216DB700254357 /* BYTriggerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYTriggerModel.swift; sourceTree = "<group>"; };
+		8F96CF341E217476008FFE36 /* BYActionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYActionModel.swift; sourceTree = "<group>"; };
+		8F96CF381E217F0B008FFE36 /* BYSceneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYSceneModel.swift; sourceTree = "<group>"; };
+		8F96CF411E217F40008FFE36 /* BYDefenceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYDefenceModel.swift; sourceTree = "<group>"; };
+		8F98B2051E17D2C4000F9300 /* ehomecloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ehomecloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F98B2081E17D2C4000F9300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F98B20A1E17D2C4000F9300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F98B20D1E17D2C4000F9300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F98B20F1E17D2C4000F9300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F98B2121E17D2C4000F9300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F98B2141E17D2C4000F9300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F98B2191E17D2C5000F9300 /* ehomecloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ehomecloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F98B21D1E17D2C5000F9300 /* ehomecloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ehomecloudTests.swift; sourceTree = "<group>"; };
+		8F98B21F1E17D2C5000F9300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F98B2241E17D2C5000F9300 /* ehomecloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ehomecloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F98B2281E17D2C5000F9300 /* ehomecloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ehomecloudUITests.swift; sourceTree = "<group>"; };
+		8F98B22A1E17D2C5000F9300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F98B23A1E17D500000F9300 /* BYLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYLoginViewController.swift; sourceTree = "<group>"; };
+		8F98B23B1E17D500000F9300 /* BYLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BYLoginViewController.xib; sourceTree = "<group>"; };
+		8F98B2441E17D5AC000F9300 /* 二维码界面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "二维码界面.png"; sourceTree = "<group>"; };
+		8F98B2461E17D5AC000F9300 /* router.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = router.xcassets; sourceTree = "<group>"; };
+		8F98B2481E17D5AC000F9300 /* deviceManageIntelligentScene.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageIntelligentScene.xcassets; sourceTree = "<group>"; };
+		8F98B2491E17D5AC000F9300 /* intelligentSceneRemoteControl.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = intelligentSceneRemoteControl.xcassets; sourceTree = "<group>"; };
+		8F98B24B1E17D5AC000F9300 /* roomManager.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = roomManager.xcassets; sourceTree = "<group>"; };
+		8F98B24E1E17D5AC000F9300 /* deviceManageSceneDeviceInfraredBig.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSceneDeviceInfraredBig.xcassets; sourceTree = "<group>"; };
+		8F98B2501E17D5AC000F9300 /* defence.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = defence.xcassets; sourceTree = "<group>"; };
+		8F98B2521E17D5AC000F9300 /* deviceManageSecurityLinkage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSecurityLinkage.xcassets; sourceTree = "<group>"; };
+		8F98B2551E17D5AC000F9300 /* editDevice.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = editDevice.xcassets; sourceTree = "<group>"; };
+		8F98B2571E17D5AC000F9300 /* deviceManageSmartDeviceControlTotal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSmartDeviceControlTotal.xcassets; sourceTree = "<group>"; };
+		8F98B2591E17D5AC000F9300 /* deviceManageSmartDeviceEnergyManage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSmartDeviceEnergyManage.xcassets; sourceTree = "<group>"; };
+		8F98B25B1E17D5AC000F9300 /* deviceManageSmartDeviceInfraredRemoteControlTotal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSmartDeviceInfraredRemoteControlTotal.xcassets; sourceTree = "<group>"; };
+		8F98B25D1E17D5AC000F9300 /* curtainConfig.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = curtainConfig.xcassets; sourceTree = "<group>"; };
+		8F98B25E1E17D5AC000F9300 /* deviceManageSmartDevicePanelTotal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSmartDevicePanelTotal.xcassets; sourceTree = "<group>"; };
+		8F98B25F1E17D5AC000F9300 /* lcdButtonIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = lcdButtonIcon.xcassets; sourceTree = "<group>"; };
+		8F98B2601E17D5AC000F9300 /* lcdConfig.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = lcdConfig.xcassets; sourceTree = "<group>"; };
+		8F98B2611E17D5AC000F9300 /* newLcdConfig.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = newLcdConfig.xcassets; sourceTree = "<group>"; };
+		8F98B2621E17D5AC000F9300 /* stemNode.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = stemNode.xcassets; sourceTree = "<group>"; };
+		8F98B2641E17D5AC000F9300 /* deviceManageSmartDeviceRouter.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSmartDeviceRouter.xcassets; sourceTree = "<group>"; };
+		8F98B2661E17D5AC000F9300 /* alarmIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = alarmIcon.xcassets; sourceTree = "<group>"; };
+		8F98B2671E17D5AC000F9300 /* bodyInfrared.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bodyInfrared.xcassets; sourceTree = "<group>"; };
+		8F98B2681E17D5AC000F9300 /* deviceManageSmartDeviceSecurityTotal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageSmartDeviceSecurityTotal.xcassets; sourceTree = "<group>"; };
+		8F98B2691E17D5AC000F9300 /* smartLock.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = smartLock.xcassets; sourceTree = "<group>"; };
+		8F98B26A1E17D5AC000F9300 /* smokeAlarm.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = smokeAlarm.xcassets; sourceTree = "<group>"; };
+		8F98B26C1E17D5AC000F9300 /* deviceManageTotal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = deviceManageTotal.xcassets; sourceTree = "<group>"; };
+		8F98B26F1E17D5AC000F9300 /* curtain.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = curtain.xcassets; sourceTree = "<group>"; };
+		8F98B2701E17D5AC000F9300 /* homePageControlCamera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageControlCamera.xcassets; sourceTree = "<group>"; };
+		8F98B2711E17D5AC000F9300 /* light.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = light.xcassets; sourceTree = "<group>"; };
+		8F98B2721E17D5AC000F9300 /* singleFireTouchSwitch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = singleFireTouchSwitch.xcassets; sourceTree = "<group>"; };
+		8F98B2731E17D5AC000F9300 /* smartPowerSockets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = smartPowerSockets.xcassets; sourceTree = "<group>"; };
+		8F98B2741E17D5AC000F9300 /* useElectricityMonitor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = useElectricityMonitor.xcassets; sourceTree = "<group>"; };
+		8F98B2751E17D5AC000F9300 /* VRVAircondition.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = VRVAircondition.xcassets; sourceTree = "<group>"; };
+		8F98B2771E17D5AC000F9300 /* fanCoilActuator.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = fanCoilActuator.xcassets; sourceTree = "<group>"; };
+		8F98B2781E17D5AC000F9300 /* homePageInfraredRemoteControlAirCondition.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageInfraredRemoteControlAirCondition.xcassets; sourceTree = "<group>"; };
+		8F98B2791E17D5AC000F9300 /* homePageInfraredRemoteControlCommonInfrared.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageInfraredRemoteControlCommonInfrared.xcassets; sourceTree = "<group>"; };
+		8F98B27A1E17D5AC000F9300 /* homePageInfraredRemoteControlTotal.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageInfraredRemoteControlTotal.xcassets; sourceTree = "<group>"; };
+		8F98B27B1E17D5AC000F9300 /* thermostat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = thermostat.xcassets; sourceTree = "<group>"; };
+		8F98B27C1E17D5AC000F9300 /* tv.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = tv.xcassets; sourceTree = "<group>"; };
+		8F98B27E1E17D5AC000F9300 /* homePageMonitoring.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageMonitoring.xcassets; sourceTree = "<group>"; };
+		8F98B2801E17D5AC000F9300 /* homePageNavigation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageNavigation.xcassets; sourceTree = "<group>"; };
+		8F98B2811E17D5AC000F9300 /* homepageSecurityLinkage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homepageSecurityLinkage.xcassets; sourceTree = "<group>"; };
+		8F98B2831E17D5AC000F9300 /* homePageScene.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homePageScene.xcassets; sourceTree = "<group>"; };
+		8F98B2851E17D5AC000F9300 /* homepageSecurityLinkage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = homepageSecurityLinkage.xcassets; sourceTree = "<group>"; };
+		8F98B2881E17D5AC000F9300 /* APPguide-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APPguide-02.png"; sourceTree = "<group>"; };
+		8F98B2891E17D5AC000F9300 /* APPguide-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APPguide-03.png"; sourceTree = "<group>"; };
+		8F98B28A1E17D5AC000F9300 /* APPguide-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APPguide-04.png"; sourceTree = "<group>"; };
+		8F98B28C1E17D5AC000F9300 /* common_icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = common_icon.xcassets; sourceTree = "<group>"; };
+		8F98B28E1E17D5AC000F9300 /* login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = login.xcassets; sourceTree = "<group>"; };
+		8F98B2901E17D5AC000F9300 /* peopleCenter.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = peopleCenter.xcassets; sourceTree = "<group>"; };
+		8F98B2911E17D5AC000F9300 /* peopleCenterAboutAPP.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = peopleCenterAboutAPP.xcassets; sourceTree = "<group>"; };
+		8F98B2931E17D5AC000F9300 /* tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = tabbar.xcassets; sourceTree = "<group>"; };
+		8F98B2941E17D5AC000F9300 /* offlineDeviceIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = offlineDeviceIcon.xcassets; sourceTree = "<group>"; };
+		8F98B2AB1E17D5AC000F9300 /* smallDeviceIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = smallDeviceIcon.xcassets; sourceTree = "<group>"; };
+		8F98B2AC1E17D5AC000F9300 /* speech.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = speech.xcassets; sourceTree = "<group>"; };
+		8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "Libs/SnapKit-3.0.0/SnapKit.xcodeproj"; sourceTree = "<group>"; };
+		8FC380D01E261B8800A7352E /* MQTTSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MQTTSwift.xcodeproj; path = Libs/MQTTSwift/MQTTSwift.xcodeproj; sourceTree = "<group>"; };
+		8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Libs/Alamofire-4.0.0/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		8FD50C6F1E26827100662E96 /* BYMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYMQTT.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F98B2021E17D2C4000F9300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD48C5D1E23F82100978EE1 /* Alamofire.framework in Frameworks */,
+				8F5C23581E2680CB00D09430 /* MQTTFramework.framework in Frameworks */,
+				8FC380C71E2404D200A7352E /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98B2161E17D2C5000F9300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98B2211E17D2C5000F9300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272AF98F92CDA542492A879F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F3D76901E196DB800BDC811 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FD50C601E26820C00662E96 /* MQTTClient */,
+				8F3D76FE1E1F6E2100BDC811 /* DataModel */,
+				8F3D76911E196DD800BDC811 /* Http */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F3D76911E196DD800BDC811 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D76921E196E0500BDC811 /* BYAlamofire.swift */,
+				8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */,
+				8F3D76FC1E1F613F00BDC811 /* BYHttpLoginModel.swift */,
+				8F6D65691E207C0C00254357 /* BYHttpMobileInitialMode.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		8F3D76FE1E1F6E2100BDC811 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8F6D65821E216D8400254357 /* SceneModel */,
+				8F3D77051E1F975A00BDC811 /* BYDataCenter.swift */,
+				8F3D77011E1F6E6100BDC811 /* BYModel.swift */,
+				8F3D76FF1E1F6E4000BDC811 /* BYLoginModel.swift */,
+				8F6D65721E207F6B00254357 /* BYHouseModel.swift */,
+				8F6D65741E207F9800254357 /* BYGatewayModel.swift */,
+				8F6D657C1E20801000254357 /* BYRoomModel.swift */,
+				8F6D65761E207FAB00254357 /* BYInDoorModel.swift */,
+				8F96CF411E217F40008FFE36 /* BYDefenceModel.swift */,
+				8F6D657E1E20802A00254357 /* BYDeviceModel.swift */,
+				8F6D65801E20804A00254357 /* BYVirtualDeviceModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		8F5C233B1E2680BB00D09430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F5C234C1E2680BB00D09430 /* MQTTClientTests.xctest */,
+				8F5C234E1E2680BB00D09430 /* MQTTClientTVTests.xctest */,
+				8F5C23501E2680BB00D09430 /* MQTTClientOSXTests.xctest */,
+				8F5C23521E2680BB00D09430 /* MQTTFramework.framework */,
+				8F5C23541E2680BB00D09430 /* MQTTFrameworkTests.xctest */,
+				8F5C23561E2680BB00D09430 /* MQTTClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6D65821E216D8400254357 /* SceneModel */ = {
+			isa = PBXGroup;
+			children = (
+				8F96CF381E217F0B008FFE36 /* BYSceneModel.swift */,
+				8F6D65831E216DB700254357 /* BYTriggerModel.swift */,
+				8F96CF341E217476008FFE36 /* BYActionModel.swift */,
+			);
+			path = SceneModel;
+			sourceTree = "<group>";
+		};
+		8F98B1FC1E17D2C4000F9300 = {
+			isa = PBXGroup;
+			children = (
+				8FC380D01E261B8800A7352E /* MQTTSwift.xcodeproj */,
+				8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */,
+				8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */,
+				8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */,
+				8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */,
+				8F98B2071E17D2C4000F9300 /* ehomecloud */,
+				8F98B21C1E17D2C5000F9300 /* ehomecloudTests */,
+				8F98B2271E17D2C5000F9300 /* ehomecloudUITests */,
+				8F98B2061E17D2C4000F9300 /* Products */,
+				272AF98F92CDA542492A879F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F98B2061E17D2C4000F9300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2051E17D2C4000F9300 /* ehomecloud.app */,
+				8F98B2191E17D2C5000F9300 /* ehomecloudTests.xctest */,
+				8F98B2241E17D2C5000F9300 /* ehomecloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F98B2071E17D2C4000F9300 /* ehomecloud */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D76901E196DB800BDC811 /* Model */,
+				8F98B2361E17D493000F9300 /* Lib */,
+				8F98B2371E17D493000F9300 /* Main */,
+				8F98B2381E17D493000F9300 /* Sources */,
+				8F98B2081E17D2C4000F9300 /* AppDelegate.swift */,
+				8F98B20A1E17D2C4000F9300 /* ViewController.swift */,
+				8F98B20C1E17D2C4000F9300 /* Main.storyboard */,
+				8F98B20F1E17D2C4000F9300 /* Assets.xcassets */,
+				8F98B2111E17D2C4000F9300 /* LaunchScreen.storyboard */,
+				8F98B2141E17D2C4000F9300 /* Info.plist */,
+			);
+			path = ehomecloud;
+			sourceTree = "<group>";
+		};
+		8F98B21C1E17D2C5000F9300 /* ehomecloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B21D1E17D2C5000F9300 /* ehomecloudTests.swift */,
+				8F98B21F1E17D2C5000F9300 /* Info.plist */,
+			);
+			path = ehomecloudTests;
+			sourceTree = "<group>";
+		};
+		8F98B2271E17D2C5000F9300 /* ehomecloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2281E17D2C5000F9300 /* ehomecloudUITests.swift */,
+				8F98B22A1E17D2C5000F9300 /* Info.plist */,
+			);
+			path = ehomecloudUITests;
+			sourceTree = "<group>";
+		};
+		8F98B2361E17D493000F9300 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8F98B2371E17D493000F9300 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2391E17D4B1000F9300 /* Login */,
+				8F3D77031E1F7A5E00BDC811 /* BYViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F98B2381E17D493000F9300 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B23E1E17D5AC000F9300 /* image */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8F98B2391E17D4B1000F9300 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B23A1E17D500000F9300 /* BYLoginViewController.swift */,
+				8F98B23B1E17D500000F9300 /* BYLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8F98B23E1E17D5AC000F9300 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2411E17D5AC000F9300 /* imagePng */,
+				8F98B2941E17D5AC000F9300 /* offlineDeviceIcon.xcassets */,
+				8F98B2AB1E17D5AC000F9300 /* smallDeviceIcon.xcassets */,
+				8F98B2AC1E17D5AC000F9300 /* speech.xcassets */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		8F98B2411E17D5AC000F9300 /* imagePng */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2421E17D5AC000F9300 /* pngDeviceManager */,
+				8F98B26D1E17D5AC000F9300 /* pngHomepage */,
+				8F98B2861E17D5AC000F9300 /* pngOther */,
+				8F98B28F1E17D5AC000F9300 /* pngPeoplecenter */,
+				8F98B2921E17D5AC000F9300 /* pngTabbar */,
+			);
+			path = imagePng;
+			sourceTree = "<group>";
+		};
+		8F98B2421E17D5AC000F9300 /* pngDeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2431E17D5AC000F9300 /* deviceManageAddDevice */,
+				8F98B2451E17D5AC000F9300 /* deviceManageHomeNetwork */,
+				8F98B2471E17D5AC000F9300 /* deviceManageIntelligentScene */,
+				8F98B24A1E17D5AC000F9300 /* deviceManageRoomManager */,
+				8F98B24C1E17D5AC000F9300 /* deviceManageScene */,
+				8F98B2511E17D5AC000F9300 /* deviceManageSecurityLinkage */,
+				8F98B2531E17D5AC000F9300 /* deviceManageSmartDevice */,
+				8F98B26B1E17D5AC000F9300 /* deviceManageTotal */,
+			);
+			path = pngDeviceManager;
+			sourceTree = "<group>";
+		};
+		8F98B2431E17D5AC000F9300 /* deviceManageAddDevice */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2441E17D5AC000F9300 /* 二维码界面.png */,
+			);
+			path = deviceManageAddDevice;
+			sourceTree = "<group>";
+		};
+		8F98B2451E17D5AC000F9300 /* deviceManageHomeNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2461E17D5AC000F9300 /* router.xcassets */,
+			);
+			path = deviceManageHomeNetwork;
+			sourceTree = "<group>";
+		};
+		8F98B2471E17D5AC000F9300 /* deviceManageIntelligentScene */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2481E17D5AC000F9300 /* deviceManageIntelligentScene.xcassets */,
+				8F98B2491E17D5AC000F9300 /* intelligentSceneRemoteControl.xcassets */,
+			);
+			path = deviceManageIntelligentScene;
+			sourceTree = "<group>";
+		};
+		8F98B24A1E17D5AC000F9300 /* deviceManageRoomManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B24B1E17D5AC000F9300 /* roomManager.xcassets */,
+			);
+			path = deviceManageRoomManager;
+			sourceTree = "<group>";
+		};
+		8F98B24C1E17D5AC000F9300 /* deviceManageScene */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B24D1E17D5AC000F9300 /* deviceManageSceneDeviceList */,
+				8F98B24F1E17D5AC000F9300 /* deviceManageSceneSecurityLinkageList */,
+			);
+			path = deviceManageScene;
+			sourceTree = "<group>";
+		};
+		8F98B24D1E17D5AC000F9300 /* deviceManageSceneDeviceList */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B24E1E17D5AC000F9300 /* deviceManageSceneDeviceInfraredBig.xcassets */,
+			);
+			path = deviceManageSceneDeviceList;
+			sourceTree = "<group>";
+		};
+		8F98B24F1E17D5AC000F9300 /* deviceManageSceneSecurityLinkageList */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2501E17D5AC000F9300 /* defence.xcassets */,
+			);
+			path = deviceManageSceneSecurityLinkageList;
+			sourceTree = "<group>";
+		};
+		8F98B2511E17D5AC000F9300 /* deviceManageSecurityLinkage */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2521E17D5AC000F9300 /* deviceManageSecurityLinkage.xcassets */,
+			);
+			path = deviceManageSecurityLinkage;
+			sourceTree = "<group>";
+		};
+		8F98B2531E17D5AC000F9300 /* deviceManageSmartDevice */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2541E17D5AC000F9300 /* deviceManageSmartDeviceCommon */,
+				8F98B2561E17D5AC000F9300 /* deviceManageSmartDeviceControl */,
+				8F98B2581E17D5AC000F9300 /* deviceManageSmartDeviceEnergyManage */,
+				8F98B25A1E17D5AC000F9300 /* deviceManageSmartDeviceInfraredRemoteControl */,
+				8F98B25C1E17D5AC000F9300 /* deviceManageSmartDevicePanel */,
+				8F98B2631E17D5AC000F9300 /* deviceManageSmartDeviceRouter */,
+				8F98B2651E17D5AC000F9300 /* deviceManageSmartDeviceSecurity */,
+			);
+			path = deviceManageSmartDevice;
+			sourceTree = "<group>";
+		};
+		8F98B2541E17D5AC000F9300 /* deviceManageSmartDeviceCommon */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2551E17D5AC000F9300 /* editDevice.xcassets */,
+			);
+			path = deviceManageSmartDeviceCommon;
+			sourceTree = "<group>";
+		};
+		8F98B2561E17D5AC000F9300 /* deviceManageSmartDeviceControl */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2571E17D5AC000F9300 /* deviceManageSmartDeviceControlTotal.xcassets */,
+			);
+			path = deviceManageSmartDeviceControl;
+			sourceTree = "<group>";
+		};
+		8F98B2581E17D5AC000F9300 /* deviceManageSmartDeviceEnergyManage */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2591E17D5AC000F9300 /* deviceManageSmartDeviceEnergyManage.xcassets */,
+			);
+			path = deviceManageSmartDeviceEnergyManage;
+			sourceTree = "<group>";
+		};
+		8F98B25A1E17D5AC000F9300 /* deviceManageSmartDeviceInfraredRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B25B1E17D5AC000F9300 /* deviceManageSmartDeviceInfraredRemoteControlTotal.xcassets */,
+			);
+			path = deviceManageSmartDeviceInfraredRemoteControl;
+			sourceTree = "<group>";
+		};
+		8F98B25C1E17D5AC000F9300 /* deviceManageSmartDevicePanel */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B25D1E17D5AC000F9300 /* curtainConfig.xcassets */,
+				8F98B25E1E17D5AC000F9300 /* deviceManageSmartDevicePanelTotal.xcassets */,
+				8F98B25F1E17D5AC000F9300 /* lcdButtonIcon.xcassets */,
+				8F98B2601E17D5AC000F9300 /* lcdConfig.xcassets */,
+				8F98B2611E17D5AC000F9300 /* newLcdConfig.xcassets */,
+				8F98B2621E17D5AC000F9300 /* stemNode.xcassets */,
+			);
+			path = deviceManageSmartDevicePanel;
+			sourceTree = "<group>";
+		};
+		8F98B2631E17D5AC000F9300 /* deviceManageSmartDeviceRouter */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2641E17D5AC000F9300 /* deviceManageSmartDeviceRouter.xcassets */,
+			);
+			path = deviceManageSmartDeviceRouter;
+			sourceTree = "<group>";
+		};
+		8F98B2651E17D5AC000F9300 /* deviceManageSmartDeviceSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2661E17D5AC000F9300 /* alarmIcon.xcassets */,
+				8F98B2671E17D5AC000F9300 /* bodyInfrared.xcassets */,
+				8F98B2681E17D5AC000F9300 /* deviceManageSmartDeviceSecurityTotal.xcassets */,
+				8F98B2691E17D5AC000F9300 /* smartLock.xcassets */,
+				8F98B26A1E17D5AC000F9300 /* smokeAlarm.xcassets */,
+			);
+			path = deviceManageSmartDeviceSecurity;
+			sourceTree = "<group>";
+		};
+		8F98B26B1E17D5AC000F9300 /* deviceManageTotal */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B26C1E17D5AC000F9300 /* deviceManageTotal.xcassets */,
+			);
+			path = deviceManageTotal;
+			sourceTree = "<group>";
+		};
+		8F98B26D1E17D5AC000F9300 /* pngHomepage */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B26E1E17D5AC000F9300 /* homePageControl */,
+				8F98B2761E17D5AC000F9300 /* homePageInfraredRemoteControl */,
+				8F98B27D1E17D5AC000F9300 /* homePageMonitoring */,
+				8F98B27F1E17D5AC000F9300 /* homePageNavigation */,
+				8F98B2821E17D5AC000F9300 /* homePageScene */,
+				8F98B2841E17D5AC000F9300 /* homePageSecurityLinkage */,
+			);
+			path = pngHomepage;
+			sourceTree = "<group>";
+		};
+		8F98B26E1E17D5AC000F9300 /* homePageControl */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B26F1E17D5AC000F9300 /* curtain.xcassets */,
+				8F98B2701E17D5AC000F9300 /* homePageControlCamera.xcassets */,
+				8F98B2711E17D5AC000F9300 /* light.xcassets */,
+				8F98B2721E17D5AC000F9300 /* singleFireTouchSwitch.xcassets */,
+				8F98B2731E17D5AC000F9300 /* smartPowerSockets.xcassets */,
+				8F98B2741E17D5AC000F9300 /* useElectricityMonitor.xcassets */,
+				8F98B2751E17D5AC000F9300 /* VRVAircondition.xcassets */,
+			);
+			path = homePageControl;
+			sourceTree = "<group>";
+		};
+		8F98B2761E17D5AC000F9300 /* homePageInfraredRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2771E17D5AC000F9300 /* fanCoilActuator.xcassets */,
+				8F98B2781E17D5AC000F9300 /* homePageInfraredRemoteControlAirCondition.xcassets */,
+				8F98B2791E17D5AC000F9300 /* homePageInfraredRemoteControlCommonInfrared.xcassets */,
+				8F98B27A1E17D5AC000F9300 /* homePageInfraredRemoteControlTotal.xcassets */,
+				8F98B27B1E17D5AC000F9300 /* thermostat.xcassets */,
+				8F98B27C1E17D5AC000F9300 /* tv.xcassets */,
+			);
+			path = homePageInfraredRemoteControl;
+			sourceTree = "<group>";
+		};
+		8F98B27D1E17D5AC000F9300 /* homePageMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B27E1E17D5AC000F9300 /* homePageMonitoring.xcassets */,
+			);
+			path = homePageMonitoring;
+			sourceTree = "<group>";
+		};
+		8F98B27F1E17D5AC000F9300 /* homePageNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2801E17D5AC000F9300 /* homePageNavigation.xcassets */,
+				8F98B2811E17D5AC000F9300 /* homepageSecurityLinkage.xcassets */,
+			);
+			path = homePageNavigation;
+			sourceTree = "<group>";
+		};
+		8F98B2821E17D5AC000F9300 /* homePageScene */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2831E17D5AC000F9300 /* homePageScene.xcassets */,
+			);
+			path = homePageScene;
+			sourceTree = "<group>";
+		};
+		8F98B2841E17D5AC000F9300 /* homePageSecurityLinkage */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2851E17D5AC000F9300 /* homepageSecurityLinkage.xcassets */,
+			);
+			path = homePageSecurityLinkage;
+			sourceTree = "<group>";
+		};
+		8F98B2861E17D5AC000F9300 /* pngOther */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2871E17D5AC000F9300 /* otherAppGuide */,
+				8F98B28B1E17D5AC000F9300 /* otherCommon */,
+				8F98B28D1E17D5AC000F9300 /* otherLogin */,
+			);
+			path = pngOther;
+			sourceTree = "<group>";
+		};
+		8F98B2871E17D5AC000F9300 /* otherAppGuide */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2881E17D5AC000F9300 /* APPguide-02.png */,
+				8F98B2891E17D5AC000F9300 /* APPguide-03.png */,
+				8F98B28A1E17D5AC000F9300 /* APPguide-04.png */,
+			);
+			path = otherAppGuide;
+			sourceTree = "<group>";
+		};
+		8F98B28B1E17D5AC000F9300 /* otherCommon */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B28C1E17D5AC000F9300 /* common_icon.xcassets */,
+			);
+			path = otherCommon;
+			sourceTree = "<group>";
+		};
+		8F98B28D1E17D5AC000F9300 /* otherLogin */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B28E1E17D5AC000F9300 /* login.xcassets */,
+			);
+			path = otherLogin;
+			sourceTree = "<group>";
+		};
+		8F98B28F1E17D5AC000F9300 /* pngPeoplecenter */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2901E17D5AC000F9300 /* peopleCenter.xcassets */,
+				8F98B2911E17D5AC000F9300 /* peopleCenterAboutAPP.xcassets */,
+			);
+			path = pngPeoplecenter;
+			sourceTree = "<group>";
+		};
+		8F98B2921E17D5AC000F9300 /* pngTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				8F98B2931E17D5AC000F9300 /* tabbar.xcassets */,
+			);
+			path = pngTabbar;
+			sourceTree = "<group>";
+		};
+		8FC380BF1E2404C300A7352E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC380C41E2404C300A7352E /* SnapKit.framework */,
+				8FC380C61E2404C300A7352E /* SnapKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC380D11E261B8800A7352E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC380D51E261B8800A7352E /* MQTTSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD48C451E23F78B00978EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FD48C501E23F78B00978EE1 /* Alamofire.framework */,
+				8FD48C521E23F78B00978EE1 /* Alamofire iOS Tests.xctest */,
+				8FD48C541E23F78B00978EE1 /* Alamofire.framework */,
+				8FD48C561E23F78B00978EE1 /* Alamofire OSX Tests.xctest */,
+				8FD48C581E23F78B00978EE1 /* Alamofire.framework */,
+				8FD48C5A1E23F78B00978EE1 /* Alamofire tvOS Tests.xctest */,
+				8FD48C5C1E23F78B00978EE1 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD50C601E26820C00662E96 /* MQTTClient */ = {
+			isa = PBXGroup;
+			children = (
+				8FD50C6F1E26827100662E96 /* BYMQTT.swift */,
+			);
+			path = MQTTClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F98B2041E17D2C4000F9300 /* ehomecloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F98B22D1E17D2C5000F9300 /* Build configuration list for PBXNativeTarget "ehomecloud" */;
+			buildPhases = (
+				8F98B2011E17D2C4000F9300 /* Sources */,
+				8F98B2021E17D2C4000F9300 /* Frameworks */,
+				8F98B2031E17D2C4000F9300 /* Resources */,
+				8F3D76CA1E196F3800BDC811 /* Embed Frameworks */,
+				8FC380BB1E23FF3200A7352E /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD48C601E23F82100978EE1 /* PBXTargetDependency */,
+				8FC380CA1E2404D200A7352E /* PBXTargetDependency */,
+				8FC380D81E261BA000A7352E /* PBXTargetDependency */,
+				8FC380DB1E261BA600A7352E /* PBXTargetDependency */,
+				8F5C235B1E2680CB00D09430 /* PBXTargetDependency */,
+			);
+			name = ehomecloud;
+			productName = ehomecloud;
+			productReference = 8F98B2051E17D2C4000F9300 /* ehomecloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F98B2181E17D2C5000F9300 /* ehomecloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F98B2301E17D2C5000F9300 /* Build configuration list for PBXNativeTarget "ehomecloudTests" */;
+			buildPhases = (
+				8F98B2151E17D2C5000F9300 /* Sources */,
+				8F98B2161E17D2C5000F9300 /* Frameworks */,
+				8F98B2171E17D2C5000F9300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F98B21B1E17D2C5000F9300 /* PBXTargetDependency */,
+			);
+			name = ehomecloudTests;
+			productName = ehomecloudTests;
+			productReference = 8F98B2191E17D2C5000F9300 /* ehomecloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F98B2231E17D2C5000F9300 /* ehomecloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F98B2331E17D2C5000F9300 /* Build configuration list for PBXNativeTarget "ehomecloudUITests" */;
+			buildPhases = (
+				8F98B2201E17D2C5000F9300 /* Sources */,
+				8F98B2211E17D2C5000F9300 /* Frameworks */,
+				8F98B2221E17D2C5000F9300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F98B2261E17D2C5000F9300 /* PBXTargetDependency */,
+			);
+			name = ehomecloudUITests;
+			productName = ehomecloudUITests;
+			productReference = 8F98B2241E17D2C5000F9300 /* ehomecloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F98B1FD1E17D2C4000F9300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = eastsoft_fuby;
+				TargetAttributes = {
+					8F98B2041E17D2C4000F9300 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					8F98B2181E17D2C5000F9300 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F98B2041E17D2C4000F9300;
+					};
+					8F98B2231E17D2C5000F9300 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F98B2041E17D2C4000F9300;
+					};
+				};
+			};
+			buildConfigurationList = 8F98B2001E17D2C4000F9300 /* Build configuration list for PBXProject "ehomecloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F98B1FC1E17D2C4000F9300;
+			productRefGroup = 8F98B2061E17D2C4000F9300 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8FD48C451E23F78B00978EE1 /* Products */;
+					ProjectRef = 8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 8F5C233B1E2680BB00D09430 /* Products */;
+					ProjectRef = 8F5C233A1E2680BB00D09430 /* MQTTClient.xcodeproj */;
+				},
+				{
+					ProductGroup = 8FC380D11E261B8800A7352E /* Products */;
+					ProjectRef = 8FC380D01E261B8800A7352E /* MQTTSwift.xcodeproj */;
+				},
+				{
+					ProductGroup = 8FC380BF1E2404C300A7352E /* Products */;
+					ProjectRef = 8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8F98B2041E17D2C4000F9300 /* ehomecloud */,
+				8F98B2181E17D2C5000F9300 /* ehomecloudTests */,
+				8F98B2231E17D2C5000F9300 /* ehomecloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8F5C234C1E2680BB00D09430 /* MQTTClientTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MQTTClientTests.xctest;
+			remoteRef = 8F5C234B1E2680BB00D09430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F5C234E1E2680BB00D09430 /* MQTTClientTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MQTTClientTVTests.xctest;
+			remoteRef = 8F5C234D1E2680BB00D09430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F5C23501E2680BB00D09430 /* MQTTClientOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MQTTClientOSXTests.xctest;
+			remoteRef = 8F5C234F1E2680BB00D09430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F5C23521E2680BB00D09430 /* MQTTFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MQTTFramework.framework;
+			remoteRef = 8F5C23511E2680BB00D09430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F5C23541E2680BB00D09430 /* MQTTFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MQTTFrameworkTests.xctest;
+			remoteRef = 8F5C23531E2680BB00D09430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8F5C23561E2680BB00D09430 /* MQTTClient.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MQTTClient.app;
+			remoteRef = 8F5C23551E2680BB00D09430 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FC380C41E2404C300A7352E /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = 8FC380C31E2404C300A7352E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FC380C61E2404C300A7352E /* SnapKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SnapKit Tests.xctest";
+			remoteRef = 8FC380C51E2404C300A7352E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FC380D51E261B8800A7352E /* MQTTSwift.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MQTTSwift.app;
+			remoteRef = 8FC380D41E261B8800A7352E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C501E23F78B00978EE1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 8FD48C4F1E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C521E23F78B00978EE1 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 8FD48C511E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C541E23F78B00978EE1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 8FD48C531E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C561E23F78B00978EE1 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 8FD48C551E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C581E23F78B00978EE1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 8FD48C571E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C5A1E23F78B00978EE1 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 8FD48C591E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FD48C5C1E23F78B00978EE1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 8FD48C5B1E23F78B00978EE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F98B2031E17D2C4000F9300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F98B3CF1E17D5AD000F9300 /* newLcdConfig.xcassets in Resources */,
+				8F98B3DF1E17D5AD000F9300 /* fanCoilActuator.xcassets in Resources */,
+				8F98B3EC1E17D5AD000F9300 /* APPguide-04.png in Resources */,
+				8F98B3D51E17D5AD000F9300 /* smartLock.xcassets in Resources */,
+				8F98B3D81E17D5AD000F9300 /* curtain.xcassets in Resources */,
+				8F98B2131E17D2C4000F9300 /* LaunchScreen.storyboard in Resources */,
+				8F98B3E71E17D5AD000F9300 /* homepageSecurityLinkage.xcassets in Resources */,
+				8F98B3C91E17D5AD000F9300 /* deviceManageSmartDeviceEnergyManage.xcassets in Resources */,
+				8F98B3C31E17D5AD000F9300 /* roomManager.xcassets in Resources */,
+				8F98B3EB1E17D5AD000F9300 /* APPguide-03.png in Resources */,
+				8F98B3EF1E17D5AD000F9300 /* peopleCenter.xcassets in Resources */,
+				8FC380D61E261BA000A7352E /* MQTTSwift.app in Resources */,
+				8F98B3DC1E17D5AD000F9300 /* smartPowerSockets.xcassets in Resources */,
+				8F98B23D1E17D500000F9300 /* BYLoginViewController.xib in Resources */,
+				8F98B3E61E17D5AD000F9300 /* homePageNavigation.xcassets in Resources */,
+				8F98B3E41E17D5AD000F9300 /* tv.xcassets in Resources */,
+				8F98B3D41E17D5AD000F9300 /* deviceManageSmartDeviceSecurityTotal.xcassets in Resources */,
+				8F98B3EE1E17D5AD000F9300 /* login.xcassets in Resources */,
+				8F98B3CD1E17D5AD000F9300 /* lcdButtonIcon.xcassets in Resources */,
+				8F98B3CB1E17D5AD000F9300 /* curtainConfig.xcassets in Resources */,
+				8F98B3F01E17D5AD000F9300 /* peopleCenterAboutAPP.xcassets in Resources */,
+				8F98B3C41E17D5AD000F9300 /* deviceManageSceneDeviceInfraredBig.xcassets in Resources */,
+				8F98B3CE1E17D5AD000F9300 /* lcdConfig.xcassets in Resources */,
+				8F98B3C71E17D5AD000F9300 /* editDevice.xcassets in Resources */,
+				8F98B3C61E17D5AD000F9300 /* deviceManageSecurityLinkage.xcassets in Resources */,
+				8F98B3DA1E17D5AD000F9300 /* light.xcassets in Resources */,
+				8F98B4061E17D5AD000F9300 /* smallDeviceIcon.xcassets in Resources */,
+				8F98B3E91E17D5AD000F9300 /* homepageSecurityLinkage.xcassets in Resources */,
+				8F98B3BF1E17D5AD000F9300 /* 二维码界面.png in Resources */,
+				8F98B3D91E17D5AD000F9300 /* homePageControlCamera.xcassets in Resources */,
+				8F98B3DD1E17D5AD000F9300 /* useElectricityMonitor.xcassets in Resources */,
+				8F98B3EA1E17D5AD000F9300 /* APPguide-02.png in Resources */,
+				8F98B3DB1E17D5AD000F9300 /* singleFireTouchSwitch.xcassets in Resources */,
+				8F98B3E31E17D5AD000F9300 /* thermostat.xcassets in Resources */,
+				8F98B3D31E17D5AD000F9300 /* bodyInfrared.xcassets in Resources */,
+				8F98B3D61E17D5AD000F9300 /* smokeAlarm.xcassets in Resources */,
+				8F98B3F21E17D5AD000F9300 /* offlineDeviceIcon.xcassets in Resources */,
+				8F98B3D21E17D5AD000F9300 /* alarmIcon.xcassets in Resources */,
+				8F98B3F11E17D5AD000F9300 /* tabbar.xcassets in Resources */,
+				8F98B3C01E17D5AD000F9300 /* router.xcassets in Resources */,
+				8F98B4071E17D5AD000F9300 /* speech.xcassets in Resources */,
+				8F98B2101E17D2C4000F9300 /* Assets.xcassets in Resources */,
+				8F98B3C51E17D5AD000F9300 /* defence.xcassets in Resources */,
+				8F98B3C21E17D5AD000F9300 /* intelligentSceneRemoteControl.xcassets in Resources */,
+				8F98B3E51E17D5AD000F9300 /* homePageMonitoring.xcassets in Resources */,
+				8F98B3CC1E17D5AD000F9300 /* deviceManageSmartDevicePanelTotal.xcassets in Resources */,
+				8F98B3E11E17D5AD000F9300 /* homePageInfraredRemoteControlCommonInfrared.xcassets in Resources */,
+				8F98B3C81E17D5AD000F9300 /* deviceManageSmartDeviceControlTotal.xcassets in Resources */,
+				8F98B3E81E17D5AD000F9300 /* homePageScene.xcassets in Resources */,
+				8F98B3D11E17D5AD000F9300 /* deviceManageSmartDeviceRouter.xcassets in Resources */,
+				8F98B3D01E17D5AD000F9300 /* stemNode.xcassets in Resources */,
+				8F98B20E1E17D2C4000F9300 /* Main.storyboard in Resources */,
+				8F3D76F91E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer in Resources */,
+				8F98B3CA1E17D5AD000F9300 /* deviceManageSmartDeviceInfraredRemoteControlTotal.xcassets in Resources */,
+				8F98B3E21E17D5AD000F9300 /* homePageInfraredRemoteControlTotal.xcassets in Resources */,
+				8FC380D91E261BA600A7352E /* MQTTSwift.app in Resources */,
+				8F98B3C11E17D5AD000F9300 /* deviceManageIntelligentScene.xcassets in Resources */,
+				8F98B3D71E17D5AD000F9300 /* deviceManageTotal.xcassets in Resources */,
+				8F98B3DE1E17D5AD000F9300 /* VRVAircondition.xcassets in Resources */,
+				8F98B3E01E17D5AD000F9300 /* homePageInfraredRemoteControlAirCondition.xcassets in Resources */,
+				8F98B3ED1E17D5AD000F9300 /* common_icon.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98B2171E17D2C5000F9300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98B2221E17D2C5000F9300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F98B2011E17D2C4000F9300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F98B23C1E17D500000F9300 /* BYLoginViewController.swift in Sources */,
+				8F96CF421E217F40008FFE36 /* BYDefenceModel.swift in Sources */,
+				8F6D65731E207F6B00254357 /* BYHouseModel.swift in Sources */,
+				8F98B20B1E17D2C4000F9300 /* ViewController.swift in Sources */,
+				8F3D76FB1E1CF07300BDC811 /* BYHttpModeParameter.swift in Sources */,
+				8F6D65841E216DB700254357 /* BYTriggerModel.swift in Sources */,
+				8F96CF391E217F0B008FFE36 /* BYSceneModel.swift in Sources */,
+				8F98B2091E17D2C4000F9300 /* AppDelegate.swift in Sources */,
+				8F3D77021E1F6E6100BDC811 /* BYModel.swift in Sources */,
+				8F6D657F1E20802A00254357 /* BYDeviceModel.swift in Sources */,
+				8F6D657D1E20801000254357 /* BYRoomModel.swift in Sources */,
+				8F96CF351E217476008FFE36 /* BYActionModel.swift in Sources */,
+				8F3D77061E1F975B00BDC811 /* BYDataCenter.swift in Sources */,
+				8F6D65811E20804A00254357 /* BYVirtualDeviceModel.swift in Sources */,
+				8FD50C701E26827100662E96 /* BYMQTT.swift in Sources */,
+				8F6D65771E207FAB00254357 /* BYInDoorModel.swift in Sources */,
+				8F3D76FD1E1F613F00BDC811 /* BYHttpLoginModel.swift in Sources */,
+				8F6D656A1E207C0C00254357 /* BYHttpMobileInitialMode.swift in Sources */,
+				8F6D65751E207F9800254357 /* BYGatewayModel.swift in Sources */,
+				8F3D77001E1F6E4000BDC811 /* BYLoginModel.swift in Sources */,
+				8F3D76931E196E0500BDC811 /* BYAlamofire.swift in Sources */,
+				8F3D77041E1F7A5E00BDC811 /* BYViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98B2151E17D2C5000F9300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F98B21E1E17D2C5000F9300 /* ehomecloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F98B2201E17D2C5000F9300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F98B2291E17D2C5000F9300 /* ehomecloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F5C235B1E2680CB00D09430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQTTFramework;
+			targetProxy = 8F5C235A1E2680CB00D09430 /* PBXContainerItemProxy */;
+		};
+		8F98B21B1E17D2C5000F9300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F98B2041E17D2C4000F9300 /* ehomecloud */;
+			targetProxy = 8F98B21A1E17D2C5000F9300 /* PBXContainerItemProxy */;
+		};
+		8F98B2261E17D2C5000F9300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F98B2041E17D2C4000F9300 /* ehomecloud */;
+			targetProxy = 8F98B2251E17D2C5000F9300 /* PBXContainerItemProxy */;
+		};
+		8FC380CA1E2404D200A7352E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			targetProxy = 8FC380C91E2404D200A7352E /* PBXContainerItemProxy */;
+		};
+		8FC380D81E261BA000A7352E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQTTSwift;
+			targetProxy = 8FC380D71E261BA000A7352E /* PBXContainerItemProxy */;
+		};
+		8FC380DB1E261BA600A7352E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MQTTSwift;
+			targetProxy = 8FC380DA1E261BA600A7352E /* PBXContainerItemProxy */;
+		};
+		8FD48C601E23F82100978EE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 8FD48C5F1E23F82100978EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F98B20C1E17D2C4000F9300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F98B20D1E17D2C4000F9300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F98B2111E17D2C4000F9300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F98B2121E17D2C4000F9300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F98B22B1E17D2C5000F9300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F98B22C1E17D2C5000F9300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F98B22E1E17D2C5000F9300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ehomecloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fby.ehomecloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F98B22F1E17D2C5000F9300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ehomecloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fby.ehomecloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F98B2311E17D2C5000F9300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ehomecloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fby.ehomecloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ehomecloud.app/ehomecloud";
+			};
+			name = Debug;
+		};
+		8F98B2321E17D2C5000F9300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ehomecloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fby.ehomecloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ehomecloud.app/ehomecloud";
+			};
+			name = Release;
+		};
+		8F98B2341E17D2C5000F9300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ehomecloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fby.ehomecloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ehomecloud;
+			};
+			name = Debug;
+		};
+		8F98B2351E17D2C5000F9300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ehomecloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fby.ehomecloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ehomecloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F98B2001E17D2C4000F9300 /* Build configuration list for PBXProject "ehomecloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F98B22B1E17D2C5000F9300 /* Debug */,
+				8F98B22C1E17D2C5000F9300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F98B22D1E17D2C5000F9300 /* Build configuration list for PBXNativeTarget "ehomecloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F98B22E1E17D2C5000F9300 /* Debug */,
+				8F98B22F1E17D2C5000F9300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F98B2301E17D2C5000F9300 /* Build configuration list for PBXNativeTarget "ehomecloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F98B2311E17D2C5000F9300 /* Debug */,
+				8F98B2321E17D2C5000F9300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F98B2331E17D2C5000F9300 /* Build configuration list for PBXNativeTarget "ehomecloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F98B2341E17D2C5000F9300 /* Debug */,
+				8F98B2351E17D2C5000F9300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F98B1FD1E17D2C4000F9300 /* Project object */;
+}
