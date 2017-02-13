@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0702231E4AC7AB00A95BAD /* BYHeadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702221E4AC7AB00A95BAD /* BYHeadPageViewController.swift */; };
+		8F0702251E4AC7C900A95BAD /* BYRoomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702241E4AC7C900A95BAD /* BYRoomPageViewController.swift */; };
+		8F0702271E4AF76300A95BAD /* BYVoicePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702261E4AF76300A95BAD /* BYVoicePageViewController.swift */; };
+		8F0702291E4AF79500A95BAD /* BYSettingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702281E4AF79500A95BAD /* BYSettingPageViewController.swift */; };
+		8F07022C1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F07022B1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift */; };
+		8F07022E1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F07022D1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib */; };
 		8F3D76931E196E0500BDC811 /* BYAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76921E196E0500BDC811 /* BYAlamofire.swift */; };
 		8F3D76F91E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */; };
 		8F3D76FB1E1CF07300BDC811 /* BYHttpModeParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */; };
@@ -270,6 +276,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F0702221E4AC7AB00A95BAD /* BYHeadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHeadPageViewController.swift; sourceTree = "<group>"; };
+		8F0702241E4AC7C900A95BAD /* BYRoomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYRoomPageViewController.swift; sourceTree = "<group>"; };
+		8F0702261E4AF76300A95BAD /* BYVoicePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYVoicePageViewController.swift; sourceTree = "<group>"; };
+		8F0702281E4AF79500A95BAD /* BYSettingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYSettingPageViewController.swift; sourceTree = "<group>"; };
+		8F07022B1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHeadPageTableVIewHeaderView.swift; sourceTree = "<group>"; };
+		8F07022D1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BYHeadPageTableVIewHeaderView.xib; sourceTree = "<group>"; };
 		8F3D76921E196E0500BDC811 /* BYAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYAlamofire.swift; sourceTree = "<group>"; };
 		8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = api.ehomeclouds.com.cn.cer; sourceTree = "<group>"; };
 		8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHttpModeParameter.swift; sourceTree = "<group>"; };
@@ -399,6 +411,48 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F07021E1E4AC77200A95BAD /* HeadPage */ = {
+			isa = PBXGroup;
+			children = (
+				8F07022A1E513F5200A95BAD /* HeadPageView */,
+				8F0702221E4AC7AB00A95BAD /* BYHeadPageViewController.swift */,
+			);
+			path = HeadPage;
+			sourceTree = "<group>";
+		};
+		8F07021F1E4AC77200A95BAD /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				8F0702241E4AC7C900A95BAD /* BYRoomPageViewController.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		8F0702201E4AC77200A95BAD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8F0702281E4AF79500A95BAD /* BYSettingPageViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		8F0702211E4AC77200A95BAD /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				8F0702261E4AF76300A95BAD /* BYVoicePageViewController.swift */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		8F07022A1E513F5200A95BAD /* HeadPageView */ = {
+			isa = PBXGroup;
+			children = (
+				8F07022B1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift */,
+				8F07022D1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib */,
+			);
+			path = HeadPageView;
 			sourceTree = "<group>";
 		};
 		8F3D76901E196DB800BDC811 /* Model */ = {
@@ -535,6 +589,10 @@
 			isa = PBXGroup;
 			children = (
 				8F98B2391E17D4B1000F9300 /* Login */,
+				8F07021E1E4AC77200A95BAD /* HeadPage */,
+				8F07021F1E4AC77200A95BAD /* Room */,
+				8F0702201E4AC77200A95BAD /* Setting */,
+				8F0702211E4AC77200A95BAD /* Voice */,
 				8F3D77031E1F7A5E00BDC811 /* BYViewController.swift */,
 			);
 			path = Main;
@@ -1180,6 +1238,7 @@
 				8F98B3E91E17D5AD000F9300 /* homepageSecurityLinkage.xcassets in Resources */,
 				8F98B3BF1E17D5AD000F9300 /* 二维码界面.png in Resources */,
 				8F98B3D91E17D5AD000F9300 /* homePageControlCamera.xcassets in Resources */,
+				8F07022E1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib in Resources */,
 				8F98B3DD1E17D5AD000F9300 /* useElectricityMonitor.xcassets in Resources */,
 				8F98B3EA1E17D5AD000F9300 /* APPguide-02.png in Resources */,
 				8F98B3DB1E17D5AD000F9300 /* singleFireTouchSwitch.xcassets in Resources */,
@@ -1239,6 +1298,7 @@
 				8FB73CC21E27F17E00597D44 /* BYTabBarViewController.swift in Sources */,
 				8F6D65731E207F6B00254357 /* BYHouseModel.swift in Sources */,
 				8F98B20B1E17D2C4000F9300 /* ViewController.swift in Sources */,
+				8F0702271E4AF76300A95BAD /* BYVoicePageViewController.swift in Sources */,
 				8F3D76FB1E1CF07300BDC811 /* BYHttpModeParameter.swift in Sources */,
 				8F6D65841E216DB700254357 /* BYTriggerModel.swift in Sources */,
 				8F96CF391E217F0B008FFE36 /* BYSceneModel.swift in Sources */,
@@ -1246,10 +1306,14 @@
 				8F3D77021E1F6E6100BDC811 /* BYModel.swift in Sources */,
 				8F6D657F1E20802A00254357 /* BYDeviceModel.swift in Sources */,
 				8F6D657D1E20801000254357 /* BYRoomModel.swift in Sources */,
+				8F07022C1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift in Sources */,
 				8FB73CDD1E2BDAD100597D44 /* BYDataInfo.swift in Sources */,
 				8F96CF351E217476008FFE36 /* BYActionModel.swift in Sources */,
+				8F0702231E4AC7AB00A95BAD /* BYHeadPageViewController.swift in Sources */,
 				8F3D77061E1F975B00BDC811 /* BYDataCenter.swift in Sources */,
 				8F6D65811E20804A00254357 /* BYVirtualDeviceModel.swift in Sources */,
+				8F0702251E4AC7C900A95BAD /* BYRoomPageViewController.swift in Sources */,
+				8F0702291E4AF79500A95BAD /* BYSettingPageViewController.swift in Sources */,
 				8FD50C701E26827100662E96 /* BYMQTT.swift in Sources */,
 				8F6D65771E207FAB00254357 /* BYInDoorModel.swift in Sources */,
 				8F3D76FD1E1F613F00BDC811 /* BYHttpLoginModel.swift in Sources */,

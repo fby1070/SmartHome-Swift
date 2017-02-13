@@ -43,7 +43,7 @@ class BYMQTT: NSObject,MQTTSessionDelegate {
                         //回到主线程
                         sleep(1)
                         self.initSubscibeTopic()
-                        print("连接成功")
+                        print("mqtt连接成功")
                         success()
                     }
                 }

@@ -76,11 +76,14 @@ class BYHttpMobileInitialMode: BYHttpModeParameter {
                 for deviceDictionary in deviceList {
                     let deviceModel = BYDeviceModel.init(dictionary: deviceDictionary)
                     deviceArray.append(deviceModel)
-                    let vdeviceList = deviceDictionary["vdeviceList"] as! Array<Dictionary<String, Any>>
-                    for vdeviceDictionary in vdeviceList {
-                        let vdeviceModel = BYVirtualDeviceModel.init(dic: vdeviceDictionary)
-                        vdeviceArray.append(vdeviceModel)
+                    let vdeviceList = deviceDictionary["vdeviceList"] as! Array<Dictionary<String, Any>>?
+                    if vdeviceList != nil {
+                        for vdeviceDictionary in vdeviceList! {
+                            let vdeviceModel = BYVirtualDeviceModel.init(dic: vdeviceDictionary)
+                            vdeviceArray.append(vdeviceModel)
+                        }
                     }
+                    
                 }
             }
             

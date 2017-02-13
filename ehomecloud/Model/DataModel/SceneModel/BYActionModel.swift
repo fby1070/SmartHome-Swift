@@ -31,7 +31,7 @@ class BYActionModel: BYModel
     
     var functionDictionary:Dictionary<String,Any>?
     
-    var defenceId:Int?
+    var defenceId:String?
     
     var defenceState:BYActionDefenceState
     
@@ -56,7 +56,7 @@ class BYActionModel: BYModel
         self.deviceKey = dictionary["deviceKey"] as! String?
         self.cmdStr = dictionary["cmdStr"] as! String?
         self.functionDictionary = dictionary["functionDictionary"] as! Dictionary?
-        self.defenceId = dictionary["defenceId"] as! Int?
+        self.defenceId = dictionary["defenceId"] as! String?
         let defenceState = dictionary["defenceState"] as! String?
         let state = dictionary["defenceState"] as! String?
         if state == "enable"

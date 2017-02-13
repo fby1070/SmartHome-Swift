@@ -37,19 +37,21 @@ class BYVirtualDeviceModel: BYModel {
     var masterDeviceKey:String = ""
     var vdeviceId:Int = 0
     var alias:String = ""
-    var roomId:String = ""
+    var roomId:String?
     var type:BYVirtualDeviceType = BYVirtualDeviceModel.BYVirtualDeviceType(rawValue: 0x00)!
     var channel:Int = 0
-    var typeName:String = ""
+    var typeName:String?
     
     init(dic:Dictionary<String, Any>) {
         self.masterDeviceKey = dic["masterDeviceKey"] as! String
         self.vdeviceId = dic["vdeviceId"] as! Int
         self.alias = dic["alias"] as! String
-        self.roomId = dic["roomId"] as! String
-        self.type = BYVirtualDeviceModel.BYVirtualDeviceType(rawValue: dic["type"] as! Int)!
-        self.channel = dic["channel"] as! Int
-        self.typeName = dic["typeName"] as! String
+        self.roomId = dic["roomId"] as! String?
+        let str = Int(dic["type"] as! String)
+        
+        self.type = BYVirtualDeviceModel.BYVirtualDeviceType(rawValue: str!)!
+        self.channel = Int(dic["channel"] as! String)!
+        self.typeName = dic["typeName"] as! String?
     }
     
     

@@ -48,8 +48,10 @@ class BYLoginViewController: BYViewController {
         self.startShow()
         let httpLoginModel = BYHttpLoginModel()
         let loginModel = BYLoginModel()
-        loginModel.userLoginName = "qdeastsoft0532@163.com"
-        loginModel.userLoginPassword = "eastsoft"
+//        loginModel.userLoginName = "qdeastsoft0532@163.com"
+//        loginModel.userLoginPassword = "eastsoft"
+        loginModel.userLoginName = "18661729897"
+        loginModel.userLoginPassword = "123456"
         httpLoginModel.loginModel = loginModel
         alamofire.postWithUrl( httpLoginModel, successed: { (response,headers) in
             let model = BYLoginModel(dictionary: response as! Dictionary<String, Any>!)
@@ -90,8 +92,11 @@ class BYLoginViewController: BYViewController {
             let mqtt = BYMQTT.shared
             mqtt.connectMqtt(success: { 
                 //mqtt 连接成功
+                let appDelegate = UIApplication.shared.delegate as! AppDelegate
+                appDelegate.window?.rootViewController = BYTabBarViewController()
             }, faild: { 
                 //mqtt 连接成失败
+                self.stopLogin()
             })
         }) { (error) in
             //失败处理

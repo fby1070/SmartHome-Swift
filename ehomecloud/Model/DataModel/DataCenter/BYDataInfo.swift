@@ -497,4 +497,22 @@ class BYDataInfo: NSObject {
             return BYDeviceDeviceTypeByCode.BYDeviceTypeUnknow.rawValue
         }
     }
+
+    
+//    struct BYDeviceConstInfoType {
+//        let materialCode:BYDeviceDeviceTypeByCode
+//        let typeDescription:String
+//        let deviceType:BYDeviceType
+//        let deviceModeType:BYDeviceModeType
+//        let maxVirtualDeviceCount:Int
+//        let maxVirtualDeviceCountInSameType:Int
+//        let supportType:BYVirtualDeviceModel.BYVirtualDeviceType
+//    }
+//    
+//    let allDevcieConstInfo:[BYDeviceConstInfoType] = [
+//        {BYDeviceConstInfoType.init(materialCode: .BYDeviceTypeGateway, typeDescription: "", deviceType: .BYGatewayDevice, deviceModeType: .BYPLCDeviceModeType, maxVirtualDeviceCount: 0,maxVirtualDeviceCountInSameType: 0,supportType: BYVirtualDeviceModel.BYVirtualDeviceType.ESAVirtualDeviceOther)}(),
+//        {BYDeviceConstInfoType.init(materialCode: .BYDeviceTypeGateway, typeDescription: "", deviceType: .BYGatewayDevice, deviceModeType: .BYPLCDeviceModeType, maxVirtualDeviceCount: 0,maxVirtualDeviceCountInSameType: 0,supportType: BYVirtualDeviceModel.BYVirtualDeviceType.ESAVirtualDeviceOther)}(),
+//        {BYDeviceConstInfoType.init(materialCode: .BYDeviceTypeGateway, typeDescription: "", deviceType: .BYGatewayDevice, deviceModeType: .BYPLCDeviceModeType, maxVirtualDeviceCount: 0,maxVirtualDeviceCountInSameType: 0,supportType: BYVirtualDeviceModel.BYVirtualDeviceType.ESAVirtualDeviceOther)}(),
+//        ]
+    
 }
