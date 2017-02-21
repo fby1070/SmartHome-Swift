@@ -12,17 +12,17 @@ import Alamofire
 
 class BYAlamofire: NSObject {
     
-//    fileprivate let ESACloudURL = "api.ehomeclouds.com.cn"
+    fileprivate let ESACloudURL = "api.ehomeclouds.com.cn"
+    
+    fileprivate let ESACloudURLPort = "10443"
+    
+    fileprivate let ESATransferProtoco = "https"
+    
+//    fileprivate let ESACloudURL = "129.1.18.18"
 //    
-//    fileprivate let ESACloudURLPort = "10443"
+//    fileprivate let ESACloudURLPort = "8080"
 //    
-//    fileprivate let ESATransferProtoco = "https"
-    
-    fileprivate let ESACloudURL = "129.1.18.18"
-    
-    fileprivate let ESACloudURLPort = "8080"
-    
-    fileprivate let ESATransferProtoco = "http"
+//    fileprivate let ESATransferProtoco = "http"
     
     
     //单例

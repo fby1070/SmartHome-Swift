@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BYControlDeviceCollectionViewCell" customModule="ehomecloud" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scene_icon_default_homePage" translatesAutoresizingMaskIntoConstraints="NO" id="kw4-Ba-a19">
+                        <rect key="frame" x="16" y="6" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="F5g-vH-peF"/>
+                            <constraint firstAttribute="height" constant="48" id="Z63-xY-DES"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开关控制模块" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6q-k8-7cI">
+                        <rect key="frame" x="0.0" y="59" width="80" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="czk-f3-a4M">
+                        <rect key="frame" x="16" y="6" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2yA-qW-xb2"/>
+                            <constraint firstAttribute="width" constant="20" id="MxD-sF-xpY"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="kw4-Ba-a19" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="7Lo-8D-3hN"/>
+                <constraint firstItem="Z6q-k8-7cI" firstAttribute="top" secondItem="kw4-Ba-a19" secondAttribute="bottom" constant="5" id="ACG-z5-vt9"/>
+                <constraint firstItem="kw4-Ba-a19" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="AZs-hF-yG5"/>
+                <constraint firstItem="Z6q-k8-7cI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EMt-qq-E9l"/>
+                <constraint firstAttribute="trailing" secondItem="Z6q-k8-7cI" secondAttribute="trailing" id="U89-i1-VVU"/>
+                <constraint firstItem="czk-f3-a4M" firstAttribute="top" secondItem="kw4-Ba-a19" secondAttribute="top" id="VgR-He-FK1"/>
+                <constraint firstItem="czk-f3-a4M" firstAttribute="leading" secondItem="kw4-Ba-a19" secondAttribute="leading" id="nWJ-QY-ynm"/>
+            </constraints>
+            <connections>
+                <outlet property="alarmImageView" destination="czk-f3-a4M" id="wAn-Ed-RcB"/>
+                <outlet property="iconImageView" destination="kw4-Ba-a19" id="Nkg-DJ-MO6"/>
+                <outlet property="titleLabel" destination="Z6q-k8-7cI" id="TwT-G8-3sD"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="scene_icon_default_homePage" width="42" height="42"/>
+    </resources>
+</document>

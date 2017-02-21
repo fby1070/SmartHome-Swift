@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import SnapKit
 
+
 class BYLoginViewController: BYViewController {
     
     let alamofire = BYAlamofire.sharedAlamoFire
@@ -48,10 +49,10 @@ class BYLoginViewController: BYViewController {
         self.startShow()
         let httpLoginModel = BYHttpLoginModel()
         let loginModel = BYLoginModel()
-//        loginModel.userLoginName = "qdeastsoft0532@163.com"
-//        loginModel.userLoginPassword = "eastsoft"
-        loginModel.userLoginName = "18661729897"
-        loginModel.userLoginPassword = "123456"
+        loginModel.userLoginName = "qdeastsoft0532@163.com"
+        loginModel.userLoginPassword = "eastsoft"
+//        loginModel.userLoginName = "18661729897"
+//        loginModel.userLoginPassword = "123456"
         httpLoginModel.loginModel = loginModel
         alamofire.postWithUrl( httpLoginModel, successed: { (response,headers) in
             let model = BYLoginModel(dictionary: response as! Dictionary<String, Any>!)

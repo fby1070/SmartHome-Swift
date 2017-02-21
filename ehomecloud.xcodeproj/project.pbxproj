@@ -13,6 +13,9 @@
 		8F0702291E4AF79500A95BAD /* BYSettingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702281E4AF79500A95BAD /* BYSettingPageViewController.swift */; };
 		8F07022C1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F07022B1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift */; };
 		8F07022E1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F07022D1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib */; };
+		8F0702321E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702301E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.swift */; };
+		8F0702331E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0702311E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.xib */; };
+		8F0702351E51818500A95BAD /* BYControlDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0702341E51818500A95BAD /* BYControlDeviceTableViewCell.swift */; };
 		8F3D76931E196E0500BDC811 /* BYAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76921E196E0500BDC811 /* BYAlamofire.swift */; };
 		8F3D76F91E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */; };
 		8F3D76FB1E1CF07300BDC811 /* BYHttpModeParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */; };
@@ -104,6 +107,7 @@
 		8FD48C5D1E23F82100978EE1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD48C501E23F78B00978EE1 /* Alamofire.framework */; };
 		8FD48C5E1E23F82100978EE1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD48C501E23F78B00978EE1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FD50C701E26827100662E96 /* BYMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD50C6F1E26827100662E96 /* BYMQTT.swift */; };
+		8FDDD3361E5C2D0200557B1C /* BridgeLoop-640p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDD3351E5C2D0200557B1C /* BridgeLoop-640p.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +286,9 @@
 		8F0702281E4AF79500A95BAD /* BYSettingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYSettingPageViewController.swift; sourceTree = "<group>"; };
 		8F07022B1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHeadPageTableVIewHeaderView.swift; sourceTree = "<group>"; };
 		8F07022D1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BYHeadPageTableVIewHeaderView.xib; sourceTree = "<group>"; };
+		8F0702301E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYControlDeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F0702311E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BYControlDeviceCollectionViewCell.xib; sourceTree = "<group>"; };
+		8F0702341E51818500A95BAD /* BYControlDeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYControlDeviceTableViewCell.swift; sourceTree = "<group>"; };
 		8F3D76921E196E0500BDC811 /* BYAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYAlamofire.swift; sourceTree = "<group>"; };
 		8F3D76F81E1CE38200BDC811 /* api.ehomeclouds.com.cn.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = api.ehomeclouds.com.cn.cer; sourceTree = "<group>"; };
 		8F3D76FA1E1CF07300BDC811 /* BYHttpModeParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYHttpModeParameter.swift; sourceTree = "<group>"; };
@@ -376,6 +383,7 @@
 		8FC380BE1E2404C300A7352E /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "Libs/SnapKit-3.0.0/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 		8FD48C441E23F78B00978EE1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Libs/Alamofire-4.0.0/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		8FD50C6F1E26827100662E96 /* BYMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYMQTT.swift; sourceTree = "<group>"; };
+		8FDDD3351E5C2D0200557B1C /* BridgeLoop-640p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BridgeLoop-640p.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,10 +457,22 @@
 		8F07022A1E513F5200A95BAD /* HeadPageView */ = {
 			isa = PBXGroup;
 			children = (
+				8F07022F1E517B6900A95BAD /* ControlDeviceCell */,
 				8F07022B1E513FF100A95BAD /* BYHeadPageTableVIewHeaderView.swift */,
 				8F07022D1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib */,
 			);
 			path = HeadPageView;
+			sourceTree = "<group>";
+		};
+		8F07022F1E517B6900A95BAD /* ControlDeviceCell */ = {
+			isa = PBXGroup;
+			children = (
+				8F0702301E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.swift */,
+				8F0702311E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.xib */,
+				8F0702341E51818500A95BAD /* BYControlDeviceTableViewCell.swift */,
+			);
+			name = ControlDeviceCell;
+			path = ControlDeviceCollectionCell;
 			sourceTree = "<group>";
 		};
 		8F3D76901E196DB800BDC811 /* Model */ = {
@@ -601,6 +621,7 @@
 		8F98B2381E17D493000F9300 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8FDDD3351E5C2D0200557B1C /* BridgeLoop-640p.mp4 */,
 				8F98B23E1E17D5AC000F9300 /* image */,
 			);
 			path = Sources;
@@ -1210,6 +1231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F98B3CF1E17D5AD000F9300 /* newLcdConfig.xcassets in Resources */,
+				8FDDD3361E5C2D0200557B1C /* BridgeLoop-640p.mp4 in Resources */,
 				8F98B3DF1E17D5AD000F9300 /* fanCoilActuator.xcassets in Resources */,
 				8F98B3EC1E17D5AD000F9300 /* APPguide-04.png in Resources */,
 				8F98B3D51E17D5AD000F9300 /* smartLock.xcassets in Resources */,
@@ -1238,6 +1260,7 @@
 				8F98B3E91E17D5AD000F9300 /* homepageSecurityLinkage.xcassets in Resources */,
 				8F98B3BF1E17D5AD000F9300 /* 二维码界面.png in Resources */,
 				8F98B3D91E17D5AD000F9300 /* homePageControlCamera.xcassets in Resources */,
+				8F0702331E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.xib in Resources */,
 				8F07022E1E5156C800A95BAD /* BYHeadPageTableVIewHeaderView.xib in Resources */,
 				8F98B3DD1E17D5AD000F9300 /* useElectricityMonitor.xcassets in Resources */,
 				8F98B3EA1E17D5AD000F9300 /* APPguide-02.png in Resources */,
@@ -1294,7 +1317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F98B23C1E17D500000F9300 /* BYLoginViewController.swift in Sources */,
+				8F0702321E517B9F00A95BAD /* BYControlDeviceCollectionViewCell.swift in Sources */,
 				8F96CF421E217F40008FFE36 /* BYDefenceModel.swift in Sources */,
+				8F0702351E51818500A95BAD /* BYControlDeviceTableViewCell.swift in Sources */,
 				8FB73CC21E27F17E00597D44 /* BYTabBarViewController.swift in Sources */,
 				8F6D65731E207F6B00254357 /* BYHouseModel.swift in Sources */,
 				8F98B20B1E17D2C4000F9300 /* ViewController.swift in Sources */,

@@ -7,13 +7,8 @@
 //
 
 import UIKit
-import SnapKit
 
 class BYHeadPageTableVIewHeaderView: UIView {
-
-//    let nameLabel = UILabel()
-//    
-//    let arrowImageView = UIImageView()
     
     @IBOutlet weak var nameLabel:UILabel!
     
@@ -23,23 +18,5 @@ class BYHeadPageTableVIewHeaderView: UIView {
         super.init(coder: aDecoder)
         
     }
-//    required override init(frame: CGRect) {
-//        super.init(frame: frame)
-//        nameLabel.snp.makeConstraints { (make) in
-//            make.left.equalTo(self).offset(10)
-//            make.centerY.equalTo(self)
-//        }
-//        
-//        
-//        arrowImageView.snp.makeConstraints { (make) in
-//            make.right.equalTo(self).offset(-15)
-//            make.centerY.equalTo(self)
-//        }
-//    }
-//    
-//    required init?(coder aDecoder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-
 
 }

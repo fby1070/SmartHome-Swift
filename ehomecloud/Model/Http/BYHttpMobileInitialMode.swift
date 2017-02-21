@@ -72,19 +72,22 @@ class BYHttpMobileInitialMode: BYHttpModeParameter {
             for roomDictionary in roomList {
                 let roomModel = BYRoomModel.init(dictionary: roomDictionary)
                 roomArray.append(roomModel)
-                let deviceList = roomDictionary["deviceList"] as! Array<Dictionary<String, Any>>
-                for deviceDictionary in deviceList {
-                    let deviceModel = BYDeviceModel.init(dictionary: deviceDictionary)
-                    deviceArray.append(deviceModel)
-                    let vdeviceList = deviceDictionary["vdeviceList"] as! Array<Dictionary<String, Any>>?
-                    if vdeviceList != nil {
-                        for vdeviceDictionary in vdeviceList! {
-                            let vdeviceModel = BYVirtualDeviceModel.init(dic: vdeviceDictionary)
-                            vdeviceArray.append(vdeviceModel)
+                let deviceList = roomDictionary["deviceList"] as! Array<Dictionary<String, Any>>?
+                if deviceList != nil {
+                    for deviceDictionary in deviceList! {
+                        let deviceModel = BYDeviceModel.init(dictionary: deviceDictionary)
+                        deviceArray.append(deviceModel)
+                        let vdeviceList = deviceDictionary["vdeviceList"] as! Array<Dictionary<String, Any>>?
+                        if vdeviceList != nil {
+                            for vdeviceDictionary in vdeviceList! {
+                                let vdeviceModel = BYVirtualDeviceModel.init(dic: vdeviceDictionary)
+                                vdeviceArray.append(vdeviceModel)
+                            }
                         }
+                        
                     }
-                    
                 }
+                
             }
             
         }

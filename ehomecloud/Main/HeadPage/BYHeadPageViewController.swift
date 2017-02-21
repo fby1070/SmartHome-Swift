@@ -20,6 +20,8 @@ class BYHeadPageViewController: BYViewController,UITableViewDelegate,UITableView
     
     var sceneArray = [BYSceneModel]()
     
+    let BYCollectionViewCellHight = 100
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +42,9 @@ class BYHeadPageViewController: BYViewController,UITableViewDelegate,UITableView
         }
         tableView.delegate = self
         tableView.dataSource = self
+        let deviceControlNib = UINib.init(nibName: "BYControlDeviceTableViewCell", bundle: nil)
+        tableView.register(deviceControlNib, forCellReuseIdentifier: "BYControlDeviceTableViewCell")
+        
         
     }
     
@@ -49,7 +54,7 @@ class BYHeadPageViewController: BYViewController,UITableViewDelegate,UITableView
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -60,9 +65,13 @@ class BYHeadPageViewController: BYViewController,UITableViewDelegate,UITableView
         return 44
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let height = 20 + BYCollectionViewCellHight * (intelligentControlArray.count / 4)
+        
+        return CGFloat(height)
+    }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        let headerView = BYHeadPageTableVIewHeaderView.init(frame: CGRect(x: 0, y: 0, width: self.tableView.frame.size.width, height: 44))
-//        headerView.arrowImageView.image = UIImage(named:"arrow_right_icon")
         let headerView = Bundle.main.loadNibNamed("BYHeadPageTableVIewHeaderView", owner: nil, options: nil)?.first as! BYHeadPageTableVIewHeaderView
         headerView.nameLabel.text = "智能控制"
         return headerView
@@ -70,11 +79,13 @@ class BYHeadPageViewController: BYViewController,UITableViewDelegate,UITableView
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "BYHeadPageViewCell")
-        if cell == nil {
-            cell = UITableViewCell.init(style: .default, reuseIdentifier: "BYHeadPageViewCell")
-        }
-        return cell!
+//        var cell = tableView.dequeueReusableCell(withIdentifier: "BYHeadPageViewCell")
+//        if cell == nil {
+//            cell = UITableViewCell.init(style: .default, reuseIdentifier: "BYHeadPageViewCell")
+//        }
+        let cell = BYControlDeviceTableViewCell()
+        cell.controlDeviceArray = self.intelligentControlArray
+        return cell
     }
 
     override func didReceiveMemoryWarning() {
